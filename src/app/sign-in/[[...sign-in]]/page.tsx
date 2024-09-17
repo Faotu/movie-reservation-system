@@ -7,3 +7,27 @@ export default function Page() {
     </div>
   )
 }
+
+// Console.WriteLine("Enter the first number: ");
+// string numberAInput = Console.ReadLine();
+// int numberA = Convert.ToInt32(numberAInput);
+
+// Console.WriteLine("Enter the first number: ");
+// string numberBInput = Console.ReadLine();
+// int numberB = Convert.ToInt32(numberBInput);
+
+// int answer = numberA * numberB;
+
+// Console.WriteLine("Value of " + numberA + " X " + numberB + ": ");
+// string answerInput = Console.ReadLine();
+// int finalAnswer = Convert.ToInt32(answerInput);
+
+// if (answer == finalAnswer) {
+//     Console.WriteLine("Your answer is correct");
+// }
+// else if (answer != finalAnswer)
+// {
+//     Console.WriteLine("Your Answer is wrong!");
+// }
+
+// Console.ReadLine();
