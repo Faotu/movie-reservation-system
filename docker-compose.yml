@@ -1,8 +1,8 @@
-version: '3.8'
+# version: '3.8'
 
 services:
   db:
-    container_name: foundation_db
+    container_name: movie-reservation-system_db
     image: postgres
     restart: always
     ports:
@@ -11,10 +11,10 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_DB: postgres
       POSTGRES_PASSWORD: password
-    volumes:
-      - db_data_foundation:/var/lib/postgresql/data
+    # volumes:
+    #   - db_data_movie-reservation-system:/var/lib/postgresql/data
   pgadmin:
-    container_name: foundation_pgadmin
+    container_name: movie-reservation-system_pgadmin
     image: dpage/pgadmin4
     restart: always
     environment:
