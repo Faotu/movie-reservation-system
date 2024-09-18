@@ -5,13 +5,13 @@ import { Search } from 'lucide-react'
 export default function Home() {
   return (
     <div className="flex flex-col gap-4 items-center mt-24">
-      <Image
+      {/* <Image
         alt=""
         width={600}
         height={600}
         src="/film.png"
         className="w-full max-w-2xl rounded-lg shadow-lg shadow-black/20 border-4 border-black aspect-square object-cover object-bottom "
-      />
+      /> */}
 
       {/* <div className="container relative mx-auto"> */}
 
@@ -23,7 +23,7 @@ export default function Home() {
             href="/cinemas"
             className="z-10 flex items-center gap-2 px-3 py-2 text-xl font-medium underline underline-offset-4"
           >
-            <Search /> Search movies now
+            <Search className="mt-0" /> Search movies now
           </Link>
         </div>
       </div>
