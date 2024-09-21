@@ -179,6 +179,7 @@ enum SoundSystemType {
 enum Genre {
     ACTION
     ADVENTURE
+    KDRAMA
     ANIMATION
     COMEDY
     CRIME
