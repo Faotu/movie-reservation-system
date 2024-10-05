@@ -8,7 +8,6 @@ import { TRPCReactProvider } from '@/trpc/clients/client'
 import { Toaster } from '@/components/molecules/Toaster/toaster'
 import { Navbar } from '@/components/organisms/Navbar'
 import { Container } from '@/components/atoms/container'
-import { ThemeProvider } from '@/components/theme-provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +22,6 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <ThemeProvider>
       <ClerkProvider>
         <TRPCReactProvider>
           <html lang="en">
@@ -35,6 +33,5 @@ export default function RootLayout({
           </html>
         </TRPCReactProvider>
       </ClerkProvider>
-    </ThemeProvider>
   )
 }
