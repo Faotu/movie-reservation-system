@@ -9,7 +9,7 @@ export default function Home() {
         alt=""
         width={600}
         height={600}
-        src="/film.png"
+        src="/mov.png"
         className="w-full max-w-2xl rounded-lg shadow-lg shadow-black/20 border-4 border-black aspect-square object-cover object-bottom "
       />
 
